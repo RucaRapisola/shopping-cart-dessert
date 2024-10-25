@@ -1,0 +1,9 @@
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;           
+}
+
+.item-quantity{
+    display: inline-block;
+}

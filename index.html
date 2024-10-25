@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+  <link rel="stylesheet" href="css-files/title.css">
+  <link rel="stylesheet" href="css-files/product.css">
+  <link rel="stylesheet" href="css-files/order.css">
+  <link rel="stylesheet" href="css-files/all.css">
+  <link rel="stylesheet" href="css-files/finished-order.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      height: 1000px;
+      padding-left: 60px;
+      padding-top: 30px;
+      padding-right: 60px;
+      background-color: rgb(255, 252, 244);
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay" id="overlay"></div>
+  <div class="popup">
+    <img src="assets/images/icon-order-confirmed.svg" >
+    <h2>Order Confirmed</h2>
+    <p>We hope you enjoy your food!</p>
+    <div class="class-details">
+      <div id="details" class="details-buy"></div>
+      <div id="total-details" class="order-total"></div>
+    </div>
+    <button type="button">Start new order</button>
+  </div>
+  <div class="all">
+    <div class="desserts-title-and-grid">
+      <div class="desserts-title">
+        <p class="paragr-title">Desserts</p>
+      </div>
+      <div class="desserts-grid" id = "data-output">
+        
+
+
+
+
+      </div>
+    </div>
+    <div class="order-div">
+      <p id="cart-text" class="order-text">Your Cart (0)</p>
+      <div class="image-empty-div">
+        <img class="image-empty" src="assets/images/illustration-empty-cart.svg">
+      </div>
+      <p class="order-info">Your added items will appear here</p>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/RucaRapisola">Rodrigo</a>.
+  </div>
+
+  <script src="js-files/script.js"></script>
+  <script src="data.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+.order-div{
+    background-color: white;
+    flex: 1;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    height:fit-content;
+}
+
+.order-text{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 18px;
+    color: rgb(204, 68, 20);
+}
+
+.image-empty-div{
+    text-align: center;
+}
+
+.order-info{
+    text-align: center;
+    color: gray;
+}
+
+.order-details{
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    padding-left: 15px;
+    font-size: small;
+}
+
+.dessert-detail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.name-dessert-order{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.amount-price-order1{
+    display: inline-block;
+    padding-right: 8px;
+    color: rgb(204, 68, 20);
+}
+.amount-price-order2{
+    display: inline-block;
+    padding-right: 2px;
+    color: gray;
+}
+.amount-price-order3{
+    display: inline-block;
+    color: brown;
+}
+
+.price-amount{
+    padding-bottom:5px ;
+}
+
+.order-total{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.total-para{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.amount-para{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button-conf-area{
+    height: 60px;
+    position: relative;
+    width: 265px;
+    margin-left: 5px;
+}
+
+.center-conf{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.confirm-order-butt{
+    border-radius: 20px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    background-color: rgb(204, 68, 20);
+    color: white;
+}
+
+.confirm-order-butt:hover{
+    background-color: brown;
+    cursor: pointer;
+}
